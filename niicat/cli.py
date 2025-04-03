@@ -77,9 +77,9 @@ def main():
                 + " "
                 + str(args.dpi)
                 + " "
-                + str(args.slice if args.slice is not None else "")
+                + str(args.slice if args.slice is not None else "None")
                 + " "
-                + str(args.volume if args.volume is not None else "")
+                + str(args.volume if args.volume is not None else "None")
                 + " | "
                 + imgcat_path
             )
@@ -99,9 +99,9 @@ def main():
             + " "
             + str(args.dpi)
             + " "
-            + str(args.slice if args.slice is not None else "")
+            + str(args.slice if args.slice is not None else "None")
             + " "
-            + str(args.volume if args.volume is not None else "")
+            + str(args.volume if args.volume is not None else "None")
             + " | "
             + imgcat_path
         )
